@@ -1,23 +1,12 @@
 <template>
-  <div>
-    <h1>Order Your Items</h1>
-    <OrderCounter />
-  </div>
+  <GalleryPage />
 </template>
 
 <script>
-import OrderCounter from './components/OrderCounter.vue';
+import GalleryPage from "./components/GalleryPage.vue";
 
 export default {
-  components: {
-    OrderCounter
-  }
+  components: { GalleryPage }
 };
 </script>
-
-<style>
-h1 {
-  text-align: center;
-}
-</style>
 
